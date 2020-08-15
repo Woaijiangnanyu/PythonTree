@@ -2,7 +2,7 @@
 import os_chmod,sys
 
 # 首页到目录 '/Users/guojialin/PycharmProjects/shell_'
-os_chmod.chdir('/Users/guojialin/PycharmProjects/shell_')
+os_chmod.chdir('shell_')
 
 # 输出到当前目录
 print('current dir is %s' % os_chmod.getcwd())

@@ -2,7 +2,7 @@
 import os,stat,sys
 
 # 打开文件
-fd = os.open('/Users/guojialin/PycharmProjects/shell_/foo.txt',os.O_RDONLY)
+fd = os.open('foo.txt',os.O_RDONLY)
 
 # 设置文件可以通过组执行
 os.fchmod(fd,stat.S_IXGRP)
