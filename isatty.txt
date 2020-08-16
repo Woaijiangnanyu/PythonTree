@@ -1,0 +1,1 @@
+input thes word to file 
