@@ -1,5 +1,5 @@
 #!usr/bin/python3
-import os_chmod,sys
+from os import os_chmod
 
 # 首页到目录 '/Users/guojialin/PycharmProjects/shell_'
 os_chmod.chdir('shell_')

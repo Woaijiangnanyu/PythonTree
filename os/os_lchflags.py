@@ -2,7 +2,7 @@
 import os,stat
 
 # 打开文件
-path = 'lchflags.txt'.encode()
+path = (os.getcwd() + '/lchflags.txt').encode()
 fd = os.open(path,os.O_RDWR|os.O_CREAT)
 
 # 关闭文件

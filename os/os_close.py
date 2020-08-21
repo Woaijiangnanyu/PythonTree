@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-import os_dup2, sys
+from os import os_dup2
+
 # 打开文件
 fd = os_dup2.open('foo.txt', os_dup2.O_RDWR | os_dup2.O_CREAT)
 

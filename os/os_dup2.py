@@ -1,4 +1,4 @@
-import os_chmod
+from os import os_chmod
 
 # open a file
 f = open('dup2','a')

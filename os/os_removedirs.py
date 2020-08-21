@@ -1,5 +1,5 @@
 #!usr/bin/python3
-import os_rename
+from os import os_rename
 
 # 列出目录
 print('目录结构：%s' % os_rename.listdir(os_rename.getcwd()))
